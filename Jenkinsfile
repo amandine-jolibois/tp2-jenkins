@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools { maven "Maven3" }
+    tools { maven "Maven" }
 
     stages {
         stage('Build & Test') {
@@ -30,3 +30,4 @@ pipeline {
         }
     }
 }
+
